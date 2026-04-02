@@ -25,7 +25,7 @@ printf("Starting Debian Update in 5 seconds \n");
     }
 printf("Starting...");
 
-system("/home/fussel/Git/JustSomeUseLessCode/QuickUp/");
+system("/home/$USER/Git/JustSomeUseLessCode/QuickUp/");
 
 }
 
@@ -40,7 +40,7 @@ printf("Starting Arch Update in 5 seconds \n");
         sleep(1);
         printf("%d\n", time);
     }
-system("/home/fussel/Git/JustSomeUseLessCode/QuickUp/UpdateAr.sh");
+system("/home/$USER/Git/JustSomeUseLessCode/QuickUp/UpdateAr.sh");
 }
 
 return 0;
