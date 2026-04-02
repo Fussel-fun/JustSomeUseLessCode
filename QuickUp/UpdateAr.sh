@@ -3,4 +3,5 @@
 
 sudo pacman -Syu
 
+sudo pacman -Syy
 
