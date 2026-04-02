@@ -6,7 +6,7 @@ gcc main.c -o up
 
 cd
 
-sudo cp -r /JustSomeUseLessCode/QuickUp  /usr/bin/
+sudo cp -r /home/$USER/JustSomeUseLessCode/QuickUp  /usr/bin/
 
 sudo cp -r /usr/bin/QuickUp/up /usr/bin
 
